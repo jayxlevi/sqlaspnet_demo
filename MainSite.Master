@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainSite.master.cs" Inherits="EmployeesApp.MainSite" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title><%= Page.Title %></title>
+    <link href="Styles/main.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="Default.aspx">Home</a></li>
+                    <li><a href="AddEmployee.aspx">Add Employee</a></li>
+                </ul>
+            </nav>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <footer>
+                <p>&copy; Jay Perrone 2022</p>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>

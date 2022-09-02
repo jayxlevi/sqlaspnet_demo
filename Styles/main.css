@@ -1,0 +1,127 @@
+﻿body {
+    margin: 0px;
+}
+
+form {
+    margin: 5em auto;
+}
+
+h1#title {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: #5b6eff;
+    text-align: center;
+    color: white;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    margin: 0px auto 5px auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 150px;
+    background-color: cornflowerblue;
+    padding: 0px;
+    border-radius: 4px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F1FAEE;
+    font-size: 20px;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+nav ul li:hover {
+    background-color: sandybrown;
+}
+
+table {
+    margin: auto;
+}
+
+th a:hover {
+    background-color: sandybrown;
+}
+
+th a {
+    display: inline-block;
+    padding: 5px 0;
+    width: 100%;
+}
+
+.form-button {
+    font-size: Large;
+    height: 35px;
+    width: 300px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+input[type=button] {
+    width: 50px;
+    margin: 2px;
+    height: 25px;
+    cursor: pointer;
+}
+
+input[type=submit],
+iput[type=reset] {
+    margin: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #5b6eff;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 5px;
+    margin: 5px auto 0 auto;
+}
+
+.pager-style a,
+.pager-style span {
+    display: inline-block;
+    padding: 3px;
+    width: 30px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.pager-style a {
+    background-color: cornflowerblue;
+}
+
+.pager-style span {
+    background-color: #723c8c;
+}
+
+.pager-style a:hover {
+    color: white;
+    background-color: #723c8c;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 0px;
+}
+.auto-style2 {
+    font-size: 1em;
+}
